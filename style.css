@@ -1,0 +1,76 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #575757;
+}
+header {
+background: rgba(225, 225, 225, 0.2);
+color: #fff;
+padding: 20px 0;
+text-align: center;
+}
+nav {
+background: rgba(225, 225, 225, 0.3);
+display: flex;
+justify-content: center;
+}
+nav a {
+color: #ffffff;
+padding: 14px 20px;
+text-decoration: none;
+}
+nav a:hover {
+background-color: #575757;
+}
+.games {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+margin: 20px;
+}
+.game-card {
+margin: 10px;
+text-align: center;
+color: #fff;
+}
+.game-card img {
+width: 200px;
+height: 400px;
+object-fit: cover;
+border-radius: 10px;
+cursor: pointer;
+transition: transform 0.3s;
+}
+.game-card img:hover {
+transform: scale(1.05);
+}
+.news {
+margin: 20px;
+padding: 20px;
+border-radius: 10px;
+background: rgba(225, 225, 225, 0.1);
+color: #fff
+}
+footer {
+background: rgba(1, 1, 1, 0.1);
+color: #fff;
+text-align: center;
+padding: 20px;
+margin-top: 20px;
+
+}
+.bgVidContainer {
+position: relative;
+height: 100vh;
+}
+#bgVid { 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    min-width: 100%; 
+    min-height: 100%; 
+    width: auto; 
+    height: auto; 
+    z-index: -1; /* Send video behind content */ 
+    transform: translate(-50%, -50%); /* Centering */ }
